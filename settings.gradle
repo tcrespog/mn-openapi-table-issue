@@ -1,0 +1,5 @@
+
+rootProject.name="mn-openapi-table-issue"
+
+include 'services'
+include 'app'
