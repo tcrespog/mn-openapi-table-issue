@@ -9,9 +9,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.micronaut.data:micronaut-data-processor")
+    annotationProcessor("io.micronaut.data:micronaut-data-processor")
     implementation("io.micronaut:micronaut-jackson-databind")
-    implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut.beanvalidation:micronaut-hibernate-validator")
     implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
     implementation("io.micronaut.sql:micronaut-hibernate-jpa")
